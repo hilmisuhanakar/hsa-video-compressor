@@ -1,0 +1,37 @@
+{
+  "name": "hsa-video-compressor",
+  "version": "1.0.0",
+  "description": "A simple command-line tool to compress and optimize video files.",
+  "main": "index.js",
+  "bin": {
+    "hsa-video-compressor": "bin/hsa-video-compressor.js"
+  },
+  "scripts": {
+    "start": "node bin/hsa-video-compressor.js"
+  },
+  "keywords": [
+    "video",
+    "compression",
+    "ffmpeg",
+    "cli",
+    "optimize"
+  ],
+  "author": "Hilmi Sühan Akar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hilmisuhanakar/hsa-video-compressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hilmisuhanakar/hsa-video-compressor/issues"
+  },
+  "homepage": "https://github.com/hilmisuhanakar/hsa-video-compressor#readme",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "commander": "^10.0.1",
+    "fs-extra": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
