@@ -38,3 +38,7 @@ hsa-video-compressor -i <input_directory> -o <output_directory> -q <quality> -s 
     -s, --size <widthxheight>: The output resolution for the video (e.g., 1280x720). The default value is 1280x720.
     </li>
  </ul>
+
+# Licence
+
+hsa-video-compressor - Material Design is an open source project that is licensed under the MIT license.
