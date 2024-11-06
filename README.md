@@ -41,4 +41,4 @@ hsa-video-compressor -i <input_directory> -o <output_directory> -q <quality> -s 
 
 # Licence
 
-hsa-video-compressor - Material Design is an open source project that is licensed under the MIT license.
+hsa-video-compressor is an open source project that is licensed under the MIT license.
